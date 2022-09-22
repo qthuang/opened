@@ -1,2 +1,2 @@
 # opened
-Temporary repository to sync opened activities
+Temporary repository to track OPENED issues. Please self-assign relevant issues.
