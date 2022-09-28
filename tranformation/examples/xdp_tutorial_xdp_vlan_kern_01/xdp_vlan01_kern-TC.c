@@ -52,7 +52,7 @@ int xdp_vlan_01 (struct __sk_buff *ctx) {
     struct ethhdr *eth;
     nh_type = parse_ethhdr (&nh, data_end, &eth);
     if (nh_type < 0)
-        return XDP_ABORTED;
+        return TC_ACT_SHOT;
     if (proto_is_vlan (ctx->protocol))
         return TC_ACT_SHOT;
     return TC_ACT_OK;
