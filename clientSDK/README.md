@@ -1,6 +1,6 @@
 ## Motivation
-Creating management plane for infused eBPF elements in Linux kernel (be it for networking, observability) is a new problem which is coming forth with emergence of eBPF adoption.
-That the developer/operator community is aware of the same is clearly by recent tooling ``Bumblebee (solo.io)``, ``L3AF (Walmart led)``, ``bpftool-gen`` etc. coming from heavy eBPF users.
+Creating management plane for infused/composed eBPF elements in Linux kernel (be it for networking, observability) is a new problem which is coming forth with emergence of eBPF adoption.
+That the developer/operator community is aware of the same is clear by recent efforts in building tooling such as ``Bumblebee (solo.io)``, ``L3AF (Walmart led)``, ``bpftool-gen`` etc. coming from heavy eBPF users.
 
 A key goal for such tooling is to obviate the need for management-plane developers to be aware of eBPF nitty-gritties by presenting industry standard mechanisms for accessing/configuring eBPF functionalities. 
 ### Bumblebee (solo.io)
